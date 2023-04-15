@@ -1,5 +1,4 @@
 # Portfólio
 
-Website com meus principais projetos em REACT, REACT NATIVE, API's e NODEJS.
+Novo website de portfólio em construção
 
->link: https://portfolio-rlzl.onrender.com

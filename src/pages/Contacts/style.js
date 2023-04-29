@@ -1,12 +1,12 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 
 export const Container = styled.div`
-    .firstTitle{
+    h3{
         margin-top: 30vh;
     }
 
-    .firstContent{
+    .first-content{
         margin: 25px;
     }
 `

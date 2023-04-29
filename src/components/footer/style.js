@@ -11,7 +11,7 @@ export const Container = styled.div`
         width: 80%;
         position: relative;
         left: 50%;
-        transform: translateX(-25%);
+        transform: translateX(-27%);
     }
 
     ul{
@@ -38,7 +38,7 @@ export const Container = styled.div`
     .instagram:hover{
         transition: 1s;
         background: linear-gradient(45deg, purple, #dc2743);
-        border-radius: 50%;
+        border-radius: 30%;
         color: purple;
     }
 
@@ -48,11 +48,11 @@ export const Container = styled.div`
         border-radius: 50%;
         color: green;
     }
-
+    
     .linkedin:hover{
         transition: 1s;
         background: linear-gradient(45deg, whitesmoke, white);
         color: #1da1f2;
     }
-    
+
 `

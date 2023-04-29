@@ -2,9 +2,8 @@ import styled from 'styled-components'
 
 
 
-export const Container = styled.div`
-    font-size: 15pt;
-    
+export const Container = styled.div`    
+    margin-top: 30vh;
     h1{
         font-family: 'Cormorant Garamond', serif;
         text-align: center;

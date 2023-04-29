@@ -5,4 +5,5 @@ body{
   background-image: linear-gradient(to right, purple, #292929);
   color: whitesmoke;
   font-family: 'Cormorant Garamond', serif;
+  font-size: 15pt;
 }

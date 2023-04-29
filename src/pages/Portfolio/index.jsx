@@ -3,7 +3,8 @@ import ServicosPic from '../../img/achei_servicos.png'
 import LabebankPic from '../../img/labebank.png'
 import Gerenciador_pix from '../../img/gerenciador-pix.png'
 import Ifuture from '../..//img/feed.jpeg'
-import Footer from '../../components/Footer'
+import Footer from '../../components/footer/Footer'
+import Header from '../../components/header/Header'
 import { Container } from './style'
 
 
@@ -35,22 +36,9 @@ export default function Portfolio(){
 
     return(
         <div>
+        <Header/>
         <Container>
-            <h1>Portfólio</h1>
-            <h3 className='firstTitle'>Flamarion França</h3>
-            <div className='firstContent'>
-                Sou desenvolvedor web e mobile fullstack junior em busca de experiência profissional,
-                e este site representa o portfólio dos meus principais projetos.
-                São aplicativos mobile, frontend, backend, fullstack e API's.
-                A intenção é apresentar minhas habilidades em programação
-                mobile e web não só para empresas, mas também como uma forma de acompanhar meu processo evolutivo,
-                à medida que vou estudando e adquirindo mais conhecimento na área, por isso esse portfólio estará em
-                constante atualização tanto no aprimoramento dos projetos que já apresento aqui como no acréscimo de outros ao longo do tempo.
-                Também tive o cuidado de mantér a responsividade em todos os projetos.
-                <div style={{marginTop:'3%'}}/>
-                Contatos: <br/>&emsp;Tel: (71) 98470-7037 / 98850-0067<br/>&emsp;
-                Email: <a href='mailto:francadasilvaflamarion@gmail.com'>francadasilvaflamarion@gmail.com</a>
-            </div>
+            <h1>Portfólio</h1>            
             <div className='matrixContainer'>
 
                 <div className="matrix" id='e-commerce'>

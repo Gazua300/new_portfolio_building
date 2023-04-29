@@ -6,6 +6,11 @@ export const Container = styled.div`
     left: 50%;
     transform: translateX(-50%);
 
+    @media(max-width: 600px){
+        left: 45%;
+        transform: translateX(-50%);
+    }
+
     .text-footer{
         margin-top: 30px;
         width: 80%;

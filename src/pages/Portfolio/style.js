@@ -4,6 +4,12 @@ import styled from 'styled-components'
 
 export const Container = styled.div`    
     margin-top: 30vh;
+    margin-left: 30px;
+
+    @media(max-width: 600px){
+        margin-left: 5px;
+    }
+
     h1{
         font-family: 'Cormorant Garamond', serif;
         text-align: center;
